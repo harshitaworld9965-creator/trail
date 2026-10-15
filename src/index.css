@@ -1,0 +1,42 @@
+*, *::after, *::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #f3efe6;
+  --text: #24231f;
+  --muted: #6a675c;
+  --accent: #32a852;
+
+  --font-body: 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
+  --font-display: Georgia, 'Times New Roman', serif;
+
+  --space-s: 0.5rem;
+  --space-m: 1rem;
+  --space-l: 2rem;
+  --space-xl: 4rem;
+
+  --max-width: 72rem;
+}
+
+body {
+  font-family: var(--font-body);
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+}
+
+button{
+  font: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
